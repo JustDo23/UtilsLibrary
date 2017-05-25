@@ -2,8 +2,6 @@ package com.just.utils.log;
 
 import android.util.Log;
 
-import com.just.utils.BuildConfig;
-
 /**
  * 打印日志工具类
  *
@@ -12,7 +10,7 @@ import com.just.utils.BuildConfig;
  */
 public class LogUtils {
 
-  public static boolean DEBUG = BuildConfig.DEBUG;
+  public static boolean DEBUG = true;
   private static String TAG = "JustDo23";
 
   public static void e(String tag, String content) {
